@@ -1,0 +1,394 @@
+{
+  "img_height": 2500, 
+  "img_path": "static/photos/nb-2_1/nb-2_1.png", 
+  "img_width": 2500, 
+  "list": {
+    "1": {
+      "clip_path": "static/photos/nb-2_1/1.png", 
+      "maxx": 840, 
+      "maxy": 1296, 
+      "minx": 747, 
+      "miny": 1195, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "10": {
+      "clip_path": "static/photos/nb-2_1/10.png", 
+      "maxx": 1391, 
+      "maxy": 1339, 
+      "minx": 1338, 
+      "miny": 1282, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "11": {
+      "clip_path": "static/photos/nb-2_1/11.png", 
+      "maxx": 1474, 
+      "maxy": 1874, 
+      "minx": 1418, 
+      "miny": 1816, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "12": {
+      "clip_path": "static/photos/nb-2_1/12.png", 
+      "maxx": 1635, 
+      "maxy": 1095, 
+      "minx": 1591, 
+      "miny": 1053, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "13": {
+      "clip_path": "static/photos/nb-2_1/13.png", 
+      "maxx": 1392, 
+      "maxy": 2300, 
+      "minx": 1363, 
+      "miny": 2265, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "14": {
+      "clip_path": "static/photos/nb-2_1/14.png", 
+      "maxx": 1346, 
+      "maxy": 1612, 
+      "minx": 1289, 
+      "miny": 1553, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "15": {
+      "clip_path": "static/photos/nb-2_1/15.png", 
+      "maxx": 1404, 
+      "maxy": 1610, 
+      "minx": 1350, 
+      "miny": 1551, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "16": {
+      "clip_path": "static/photos/nb-2_1/16.png", 
+      "maxx": 1453, 
+      "maxy": 1339, 
+      "minx": 1398, 
+      "miny": 1280, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "17": {
+      "clip_path": "static/photos/nb-2_1/17.png", 
+      "maxx": 1498, 
+      "maxy": 2187, 
+      "minx": 1471, 
+      "miny": 2152, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "18": {
+      "clip_path": "static/photos/nb-2_1/18.png", 
+      "maxx": 1401, 
+      "maxy": 878, 
+      "minx": 1278, 
+      "miny": 766, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "19": {
+      "clip_path": "static/photos/nb-2_1/19.png", 
+      "maxx": 354, 
+      "maxy": 2031, 
+      "minx": 302, 
+      "miny": 1989, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "2": {
+      "clip_path": "static/photos/nb-2_1/2.png", 
+      "maxx": 1596, 
+      "maxy": 384, 
+      "minx": 1513, 
+      "miny": 277, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "20": {
+      "clip_path": "static/photos/nb-2_1/20.png", 
+      "maxx": 1391, 
+      "maxy": 654, 
+      "minx": 1283, 
+      "miny": 548, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "21": {
+      "clip_path": "static/photos/nb-2_1/21.png", 
+      "maxx": 300, 
+      "maxy": 1427, 
+      "minx": 272, 
+      "miny": 1404, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "22": {
+      "clip_path": "static/photos/nb-2_1/22.png", 
+      "maxx": 397, 
+      "maxy": 1375, 
+      "minx": 360, 
+      "miny": 1349, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "23": {
+      "clip_path": "static/photos/nb-2_1/23.png", 
+      "maxx": 1463, 
+      "maxy": 1607, 
+      "minx": 1410, 
+      "miny": 1552, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "24": {
+      "clip_path": "static/photos/nb-2_1/24.png", 
+      "maxx": 1340, 
+      "maxy": 1481, 
+      "minx": 1281, 
+      "miny": 1420, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "25": {
+      "clip_path": "static/photos/nb-2_1/25.png", 
+      "maxx": 1320, 
+      "maxy": 235, 
+      "minx": 1250, 
+      "miny": 175, 
+      "name": "car", 
+      "prob": "0.99"
+    }, 
+    "26": {
+      "clip_path": "static/photos/nb-2_1/26.png", 
+      "maxx": 1369, 
+      "maxy": 142, 
+      "minx": 1263, 
+      "miny": 38, 
+      "name": "car", 
+      "prob": "0.99"
+    }, 
+    "27": {
+      "clip_path": "static/photos/nb-2_1/27.png", 
+      "maxx": 1452, 
+      "maxy": 82, 
+      "minx": 1390, 
+      "miny": 14, 
+      "name": "car", 
+      "prob": "0.99"
+    }, 
+    "28": {
+      "clip_path": "static/photos/nb-2_1/28.png", 
+      "maxx": 1371, 
+      "maxy": 2193, 
+      "minx": 1337, 
+      "miny": 2154, 
+      "name": "car", 
+      "prob": "0.99"
+    }, 
+    "29": {
+      "clip_path": "static/photos/nb-2_1/29.png", 
+      "maxx": 1403, 
+      "maxy": 2194, 
+      "minx": 1374, 
+      "miny": 2154, 
+      "name": "car", 
+      "prob": "0.99"
+    }, 
+    "3": {
+      "clip_path": "static/photos/nb-2_1/3.png", 
+      "maxx": 418, 
+      "maxy": 2399, 
+      "minx": 314, 
+      "miny": 2309, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "30": {
+      "clip_path": "static/photos/nb-2_1/30.png", 
+      "maxx": 1341, 
+      "maxy": 742, 
+      "minx": 1268, 
+      "miny": 682, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "31": {
+      "clip_path": "static/photos/nb-2_1/31.png", 
+      "maxx": 1506, 
+      "maxy": 639, 
+      "minx": 1401, 
+      "miny": 515, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "32": {
+      "clip_path": "static/photos/nb-2_1/32.png", 
+      "maxx": 1560, 
+      "maxy": 2184, 
+      "minx": 1534, 
+      "miny": 2152, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "33": {
+      "clip_path": "static/photos/nb-2_1/33.png", 
+      "maxx": 1460, 
+      "maxy": 1117, 
+      "minx": 1405, 
+      "miny": 1049, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "34": {
+      "clip_path": "static/photos/nb-2_1/34.png", 
+      "maxx": 1513, 
+      "maxy": 2296, 
+      "minx": 1489, 
+      "miny": 2260, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "35": {
+      "clip_path": "static/photos/nb-2_1/35.png", 
+      "maxx": 298, 
+      "maxy": 1377, 
+      "minx": 269, 
+      "miny": 1353, 
+      "name": "car", 
+      "prob": "0.98"
+    }, 
+    "36": {
+      "clip_path": "static/photos/nb-2_1/36.png", 
+      "maxx": 1528, 
+      "maxy": 2186, 
+      "minx": 1507, 
+      "miny": 2151, 
+      "name": "car", 
+      "prob": "0.97"
+    }, 
+    "37": {
+      "clip_path": "static/photos/nb-2_1/37.png", 
+      "maxx": 1618, 
+      "maxy": 1010, 
+      "minx": 1506, 
+      "miny": 903, 
+      "name": "car", 
+      "prob": "0.96"
+    }, 
+    "38": {
+      "clip_path": "static/photos/nb-2_1/38.png", 
+      "maxx": 1470, 
+      "maxy": 2189, 
+      "minx": 1437, 
+      "miny": 2151, 
+      "name": "car", 
+      "prob": "0.96"
+    }, 
+    "39": {
+      "clip_path": "static/photos/nb-2_1/39.png", 
+      "maxx": 1489, 
+      "maxy": 2298, 
+      "minx": 1461, 
+      "miny": 2260, 
+      "name": "car", 
+      "prob": "0.96"
+    }, 
+    "4": {
+      "clip_path": "static/photos/nb-2_1/4.png", 
+      "maxx": 1426, 
+      "maxy": 2299, 
+      "minx": 1398, 
+      "miny": 2265, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "40": {
+      "clip_path": "static/photos/nb-2_1/40.png", 
+      "maxx": 1556, 
+      "maxy": 511, 
+      "minx": 1508, 
+      "miny": 462, 
+      "name": "car", 
+      "prob": "0.95"
+    }, 
+    "41": {
+      "clip_path": "static/photos/nb-2_1/41.png", 
+      "maxx": 1435, 
+      "maxy": 2193, 
+      "minx": 1404, 
+      "miny": 2153, 
+      "name": "car", 
+      "prob": "0.92"
+    }, 
+    "42": {
+      "clip_path": "static/photos/nb-2_1/42.png", 
+      "maxx": 324, 
+      "maxy": 1376, 
+      "minx": 297, 
+      "miny": 1353, 
+      "name": "car", 
+      "prob": "0.85"
+    }, 
+    "43": {
+      "clip_path": "static/photos/nb-2_1/43.png", 
+      "maxx": 1087, 
+      "maxy": 1350, 
+      "minx": 1053, 
+      "miny": 1327, 
+      "name": "car", 
+      "prob": "0.52"
+    }, 
+    "5": {
+      "clip_path": "static/photos/nb-2_1/5.png", 
+      "maxx": 1458, 
+      "maxy": 2298, 
+      "minx": 1429, 
+      "miny": 2263, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "6": {
+      "clip_path": "static/photos/nb-2_1/6.png", 
+      "maxx": 1381, 
+      "maxy": 366, 
+      "minx": 1267, 
+      "miny": 248, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "7": {
+      "clip_path": "static/photos/nb-2_1/7.png", 
+      "maxx": 1619, 
+      "maxy": 886, 
+      "minx": 1533, 
+      "miny": 786, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "8": {
+      "clip_path": "static/photos/nb-2_1/8.png", 
+      "maxx": 1490, 
+      "maxy": 386, 
+      "minx": 1388, 
+      "miny": 259, 
+      "name": "car", 
+      "prob": "1.00"
+    }, 
+    "9": {
+      "clip_path": "static/photos/nb-2_1/9.png", 
+      "maxx": 1459, 
+      "maxy": 1475, 
+      "minx": 1402, 
+      "miny": 1416, 
+      "name": "car", 
+      "prob": "1.00"
+    }
+  }
+}

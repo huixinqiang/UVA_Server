@@ -1,0 +1,258 @@
+.cropper-crop-box{
+    display: none;
+}
+
+.br-b-side-right {
+    border-bottom: 1px solid #dddddd;
+}
+
+.img-container,.img-preview
+{
+    background-color:#f7f7f7;
+    overflow:hidden;
+    width:100%;
+    text-align:center;
+}
+.img-container{
+    min-height:200px;
+    max-height:466px;
+    margin-bottom:20px;
+}
+@media (min-width: 768px)
+{
+    .img-container
+    {
+        min-height:466px;
+    }
+}
+.img-container>img
+{
+    max-width:100%;
+}
+
+.sb-l-o #content_wrapper {
+    padding-top: 60px;
+    margin-left: 0px;
+
+ }
+
+body.sb-l-m #content_wrapper {
+    margin-left: 0px;
+    padding-top: 60px;
+}
+
+
+.line{
+    fill: none;
+    stroke: #45eba5;
+    stroke-width: 2;
+}
+.military
+{
+    fill: none;
+    stroke: #f30e5c;
+    stroke-width: 2;
+}
+
+.selected{
+    stroke: #fff000;
+    fill:rgba(255,240,0,0.4);
+}
+
+.of-h {
+    height: 87px;
+    text-align: center;
+    vertical-align: middle;
+    padding:5px;
+}
+#mix-container .mix{
+    width: 30%;
+    margin-bottom: 5px;
+    margin-right:5px;
+    text-align: center;
+    display: inline-block;
+}
+
+body{
+    min-height: 100%;
+}
+.tray-right {
+    position: relative;
+    width: 300px;
+    min-height: 100%;
+    padding: 0px;
+    border-right: 1px solid #DDD;
+    background: #f5f5f5;
+}
+.panel-scroller {
+    height: 100%;
+    max-height: 100%;
+}
+
+#slice-container{
+    margin-bottom: 0px;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.panel-body{
+    border: none;
+}
+
+.user-group-widget .user-avatar {
+    border: 3px solid #CCC;
+    display: inline-block;
+    width: 80px;
+    max-width: 80px;
+    height: 80px;
+}
+
+.user-group-widget .selected-img{
+    border: 3px solid #f6c523;
+}
+
+#main-container{
+    text-align: center;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+#content.table-layout > div {
+    padding:0px;
+}
+
+.time-text{
+    font-size: 16px;
+    fill: #ff2a21;
+    font-weight: 600;
+    text-anchor: middle;
+}
+
+.navbar[class*='bg-'] .navbar-btn.btn-group > .btn{
+    border-radius: 30px;
+    padding: 2px 35px;
+    text-transform: uppercase;
+    font-size:20px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+}
+
+#start{
+    color: #ffffff;
+    background-color: #50a2e5;
+    border-color: #50a2e5;
+}
+
+.navbar-brand-iecas
+{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.navbar-brand-iecas a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.intro-heading {
+    max-width: 900px;
+    text-align: center;
+    letter-spacing: 1.2px;
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: transparent;
+}
+
+.intro-start button{
+    border-radius: 30px;
+    padding: 10px 48px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+body.external-page #main:before {
+    display: block;
+}
+
+
+#main:before {
+    z-index: -2;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('assets/img/background.jpg');
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#main:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(60,83,111,0.85);
+}
+body.external-page #main {
+    overflow: hidden;
+    background: #2e9fb5;
+    font-family: "microsoft yahei", 'Lato', Calibri, Arial, sans-serif;
+}
+
+.badge{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 3px 6px;
+    opacity: 0.95;
+}
+
+.badge-text{
+    font-size: 12px;
+    fill: #ffffff;
+    font-weight: 400;
+    text-anchor: middle;
+}
+
+.badge-circle{
+    fill: #3bafda;
+}
+
+.dockmodal-header {
+    background: #3b3f4f;
+}
+
+ul.tray-nav {
+    margin: 0px -15px;
+}
+
+.dockmodal-body {
+    padding: 0px 15px;
+    border: 1px #e2e2e2 solid;
+}
+
+.nav>li.active{
+    border-bottom: 1px #e2e2e2 solid;
+}
+
+
+
+
+
+
+

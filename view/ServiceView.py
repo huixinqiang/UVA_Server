@@ -2,6 +2,7 @@
 import sys
 import flask
 import json
+
 sys.path.insert(0, "..")
 
 from view import app
@@ -16,7 +17,7 @@ def index():
     :return: 状态
     """
     start_zmq_thd()  # 开启通信线程
-    print ("<-----> Start Web Server! <----->")
+    print("<-----> Start Web Server! <----->")
     return "OK"
 
 
@@ -47,6 +48,3 @@ def retrieve_photo_by_id(id):
     with open(json_path, "r") as fr:
         in_data = json.load(fr)
     return flask.jsonify(in_data)
-
-
-

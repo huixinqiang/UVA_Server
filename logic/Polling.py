@@ -34,7 +34,7 @@ class PollingFile:
         for f in new_tar_name:
             new_tar_path = os.path.join('./tar/', f)
             if os.path.isfile(new_tar_path):
-                data_path = TarTcp.unpack_tar(new_tar_path, './view/static/photos/')
+                data_path = Tar.unpack_tar(new_tar_path, './view/static/photos/')
                 print ("The tar file \'" + f + "\' has been unpack.")
 
                 db.add_db(data_path)

@@ -1,17 +1,14 @@
 # coding=utf-8
-import zmq
-
+import os
 from logic.PgSQL import PgSqlData
-from logic.util import *
 
 # 根目录
 ROOT_FOLDER = os.path.dirname(__file__)
 os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 # SERVER_IP = get_host_ip()
-SERVER_IP = '*'
-SERVER_PORT = '25041'
-SERVER_TYPE = zmq.REP
+SERVER_IP = 'localhost'
+SERVER_PORT = 25041
 
 TAR_EXTENSION = ".tar.gz"
 

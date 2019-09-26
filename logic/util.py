@@ -4,8 +4,9 @@ import threading
 import socket
 
 import Config
-from TarTcp import TarTcp
-from Polling import PollingFile
+from logic.Recv import ReceiveData
+from logic.Polling import PollingFile
+from logic.PgSQL import PgSqlData
 
 
 def start_zmq_thd():
@@ -13,7 +14,7 @@ def start_zmq_thd():
     开启zmq通信线程，接收数据
     :return: 无
     """
-    inst_all = TarTcp(Config.SERVER_IP, Config.SERVER_PORT, Config.SERVER_TYPE)  # 设置接收img的socket
+    inst_all = ReceiveData(Config.SERVER_IP, Config.SERVER_PORT)  # 设置接收img的socket
 
     thd_recv_all = threading.Thread(target=inst_all.recv_all)
     thd_recv_all.setDaemon(True)
@@ -38,6 +39,6 @@ def get_host_ip():
         ip = s.getsockname()[0]
         s.close()
         return ip
-    except Exception, e:
-        print e
+    except Exception as e:
+        print(e)
         return None

@@ -183,8 +183,9 @@ class ClipRecord(Base):
 
 
 class PgSqlData:
-    def __init__(self, task_lat, task_lng, user='UAV_user', host='127.0.0.1:5432', db_name='UAV_data'):
+    def __init__(self, task_lat, task_lng, user='uav_user', password='366432', host='127.0.0.1:5432', db_name='uav_data'):
         self.user = user
+        self.password = password
         self.host = host
         self.database = db_name
         self.db = self.get_db()
@@ -206,7 +207,7 @@ class PgSqlData:
         :param database: 数据库名称
         :return: 返回Session对象
         """
-        db_str = str('postgresql+psycopg2://{0}:@{1}/{2}'.format(self.user, self.host, self.database))
+        db_str = str('postgresql+psycopg2://{0}:{1}@{2}/{3}'.format(self.user, self.password, self.host, self.database))
         engine = create_engine(db_str, echo=True)
         Base.metadata.create_all(engine)
         DBSession = sessionmaker(bind=engine)
@@ -230,7 +231,7 @@ class PgSqlData:
                     self.frame = FrameRecord(TaskID=self.TaskID , UAVID=0,
                                              FrameID=frame_id,
                                              FrameTime=datetime.datetime.strptime(json_data['img_time'], "%Y-%m-%d %H:%M:%S"),
-                                             FramePath=unicode(data_path, "utf-8"),
+                                             FramePath=Unicode(data_path, "utf-8"),
                                              FrameLng=json_data['FrameLng'],
                                              FrameLat=json_data['FrameLat']
                                              )
